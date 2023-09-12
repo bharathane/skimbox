@@ -1,0 +1,46 @@
+.card {
+  height: 70vh;
+  width: 100vw;
+  padding: 15px;
+}
+.content-in-big-screen {
+  display: none;
+}
+span {
+  font-size: 12px;
+}
+.tick-img {
+  width: 3%;
+}
+li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+}
+.try-for-free-btn {
+  width: 90vw;
+  height: 35px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+.disign-for-offers {
+  background-color: rgb(239, 231, 231);
+  padding: 15px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    height: 100vh;
+    margin: 5px;
+    width: 30vw;
+    box-shadow: 1px;
+  }
+  .try-for-free-btn {
+    width: 30vw;
+  }
+  .content-in-big-screen {
+    display: block;
+  }
+}

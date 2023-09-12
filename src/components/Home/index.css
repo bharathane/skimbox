@@ -1,0 +1,39 @@
+.btn-for-navigation {
+  background: none;
+  width: 33.3vw;
+  height: 8vh;
+}
+
+@media (min-width: 768px) {
+  .btn-for-navigation {
+    display: none;
+  }
+  .home {
+    padding: 15px;
+    background-image: linear-gradient(
+      to right,
+      rgb(251, 251, 251),
+      rgb(255, 255, 255),
+      rgb(255, 255, 255),
+      rgb(255, 255, 255),
+      rgb(255, 255, 255),
+      rgb(255, 255, 255),
+      rgb(255, 255, 255),
+      #9ed2e2
+    );
+  }
+  .hide-in-big {
+    display: none;
+  }
+  .hide-in-small {
+    display: flex;
+  }
+}
+@media (max-width: 767px) {
+  .home {
+    background-color: white;
+  }
+  .hide-in-small {
+    display: none;
+  }
+}

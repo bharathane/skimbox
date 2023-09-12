@@ -1,0 +1,61 @@
+.header-con {
+  width: 100vw;
+  height: 30px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-bottom: 0.2px solid #dddad4;
+}
+img {
+  width: 14%;
+}
+.logo-con {
+  display: flex;
+
+  align-items: center;
+}
+u {
+  font-size: 13px;
+}
+.hand-menu {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .list-options {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .hand-menu {
+    display: none;
+  }
+  select {
+    background: none;
+    border: none;
+    outline: none;
+  }
+  .login-btn {
+    background: none;
+    border: none;
+    outline: none;
+  }
+  .start-free-btn {
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding: 8px;
+  }
+  .list-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .btn-con {
+    margin-left: 120px;
+  }
+}
