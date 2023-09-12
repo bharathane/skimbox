@@ -1,3 +1,7 @@
+this is responsive project too. check it once on different breaking points
+
+url:-https://shopify-skimbox.onrender.com/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
